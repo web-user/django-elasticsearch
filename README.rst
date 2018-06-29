@@ -1,11 +1,7 @@
 ========================
-Django Elasticsearch DSL
+Django Elasticsearch 
 ========================
 
-.. image:: https://travis-ci.org/sabricot/django-elasticsearch-dsl.png?branch=master
-    :target: https://travis-ci.org/sabricot/django-elasticsearch-dsl
-.. image:: https://codecov.io/gh/sabricot/django-elasticsearch-dsl/coverage.svg?branch=master
-    :target: https://codecov.io/gh/sabricot/django-elasticsearch-dsl
 .. image:: https://badge.fury.io/py/django-elasticsearch-dsl.svg
     :target: https://pypi.python.org/pypi/django-elasticsearch-dsl
 
@@ -28,6 +24,28 @@ Features
    - Elasticsearch >= 2.0 < 7.0
 
 .. _Search: http://elasticsearch-dsl.readthedocs.io/en/stable/search_dsl.html
+
+
+Quickstart
+----------
+
+Install Virtualenv::
+
+    sudo pip3 install virtualenv
+
+    virtualenv venv
+
+    source venv/bin/activate or deactivate
+
+    pip install -r requirements.txt
+
+    python manage.py makemigrations blog
+
+    python manage.py migrate
+
+    python manage.py search_index --rebuild
+
+
 
 Quickstart
 ----------
