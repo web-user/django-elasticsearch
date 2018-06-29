@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+
+	<!-- Product Detail -->
+	<section class="sec-product-detail bg0 p-t-65 p-b-60">
+        <div class="container">
+            <div class="row">
+                <form method="get">
+                    <input type="text" id="q" value="" name="q">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+
+
+		{% for item_posts in posts %}
+
+			<div class="container">
+				<div class="row">
+                    {{item_posts.id}}&nbsp;-
+                    {{item_posts.title}}
+				</div>
+
+			</div>
+
+
+		{% endfor %}
+
+	</section>
+
+
+	<!-- Blog -->
+
+
+
+
+{% endblock %}
