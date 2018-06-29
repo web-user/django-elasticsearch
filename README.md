@@ -1,5 +1,5 @@
 ========================
-Django Elasticsearch
+Django Elasticsearch DSL
 ========================
 
 .. image:: https://travis-ci.org/sabricot/django-elasticsearch-dsl.png?branch=master
