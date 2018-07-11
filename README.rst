@@ -13,6 +13,10 @@ by the elasticsearch-dsl-py team.
 Features
 --------
 
+- Java SE Downloads JDK http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+- Download Elasticsearch https://www.elastic.co/downloads/past-releases/elasticsearch-5-6-8
+
 - Based on elasticsearch-dsl-py_ so you can make queries with the Search_ class.
 - Django signal receivers on save and delete for keeping Elasticsearch in sync.
 - Management commands for creating, deleting, rebuilding and populating indices.
